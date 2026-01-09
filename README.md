@@ -29,5 +29,10 @@ Designed a voltage divider to monitor the battery via ESP32 ADC:
 **Issue:** "Integral Windup" caused instability when recovering from a tilt.
 **Solution:** Tuned the PID controller by clamping the Integral (Ki) term and implementing a conditional integration zone (only integrating when error is small).
 
+## ⚙️ Mechanical Design
+The robot's chassis was designed from scratch to ensure structural stability and modularity.
+* **Design Software:** FreeCAD (`.FCStd` source files included).
+* **Manufacturing:** 3D printed using **PETG** on a **Prusa i3 MK3**.
+* **Files:** All STL files are available in the `3D_models` folder for replication.
 ---
 *Created by sharon yerukhimovich - Electrical Engineering Student*

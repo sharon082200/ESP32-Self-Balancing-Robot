@@ -1,0 +1,13 @@
+# Arduino IDE generated files
+*.elf
+*.hex
+*.bin
+*.lock
+*.prefs
+
+# MacOS junk (if you or someone else uses Mac)
+.DS_Store
+
+# Temporary build folders
+build/
+.arduino/

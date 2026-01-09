@@ -20,6 +20,11 @@ Designed and built as a personal engineering project.
 | **Motors** | 12V DC Gear Motors with Encoders |
 | **Power** | 2x 18650 Li-Ion Batteries (7.4V - 8.4V) |
 
+## 🔌 Circuit Diagram
+Here is the complete wiring schematic for the robot:
+
+![Schematic](Schematic.png)
+
 ## 🔋 Battery Monitoring
 Designed a voltage divider to monitor the battery via ESP32 ADC:
 * **Divider:** 33kΩ (Top) / 10kΩ (Bottom).
